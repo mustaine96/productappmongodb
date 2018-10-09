@@ -1,9 +1,10 @@
 package com.capgemini.productapp.entity;
 
+
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "products")
+@Document(collection = "product")
 public class Product {
 
 	@Id

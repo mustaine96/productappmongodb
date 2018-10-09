@@ -1,12 +1,12 @@
-package com.capgemini.mongodbapp;
+package com.capgemini.productapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MongodbappApplication {
+public class ProductappApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MongodbappApplication.class, args);
+		SpringApplication.run(ProductappApplication.class, args);
 	}
 }

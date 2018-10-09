@@ -1,6 +1,6 @@
 package com.capgemini.productapp.exception;
 
-public class ProductNotFoundException extends Exception {
+public class ProductNotFoundException extends RuntimeException {
 	
 	public ProductNotFoundException() {		
 	}
